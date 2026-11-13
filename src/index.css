@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+@theme{
+    --color-groen:#244F3C;
+    --color-geel:#D8E95C;
+    --color-grijs:#CDD8D0;
+    --color-wit:#FFFF;
+    --color-licht-groen:#DBE7DF;
+    --color-licht-oranje:#EEE9D9;
+    --color-zandkleur:#F3DFB4;
+    --color-kpi-topic:#607066;
+
+    --breakpoint-tablet:769px;
+    --breakpoint-pc:1024px;
+
+}
+
+@layer base {
+    h1{
+        font-size: 32px;
+        font-family: Georgia, sans-serif;
+    }
+    h2 {
+        font-size: 18px;
+        font-family: Georgia, sans-serif;
+    }
+
+    p {
+        font-size: 10px;
+        font-family: sans-serif;
+    }
+}
+
+
+
+
+
+
