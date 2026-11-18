@@ -11,5 +11,6 @@ export async function getMedicationInventory(){
             }
         }
     )
+    console.log("Medication inventory response:", response.data);
     return response.data
 }

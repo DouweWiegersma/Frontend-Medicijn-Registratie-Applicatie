@@ -8,7 +8,7 @@ function InfoPanel({eyeBrow, title})
         queryKey: ["treatment"],
         queryFn: getTreatmentHistory,
     });
-    console.log(treatments)
+
 
 
     return (
